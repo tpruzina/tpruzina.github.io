@@ -1,0 +1,16 @@
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+title:		           "tpruzina"
+description:	       "work in progress home page"
+author:              "Tomas Pruzina"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
